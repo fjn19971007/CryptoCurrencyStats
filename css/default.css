@@ -1,0 +1,148 @@
+body {
+    margin: 0; 
+    background: linear-gradient(#0059b3, #2682dd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center; 
+}
+
+.header {
+    align-content: center;
+    text-align: center;
+}
+
+.nav {
+    height: 100px;
+    padding: 10px 10px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navlink {
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px; 
+}
+
+.navlink a:hover {
+    background-color: white;
+    color: #0059b3;
+}
+
+.nav a {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+#priceNumber {
+    color: #333333;
+    font-family: "FFX Simple Thin";
+    font-weight: 400;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.chart {
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttonBar {
+    height: 100%;
+    overflow: hidden;
+    background-color : white; 
+}
+
+.chartButton {
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #888;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    background-clip: content-box;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+}
+
+.onClick {
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0059b3;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    background-clip: content-box;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+}
+
+.chartButton:hover {
+    color: #555;
+}
+
+hr {
+    border-top: 0.5px solid #ddd;
+}
+
+.Resources {
+    margin-top: 50px;
+    padding: 40px 40px 60px 40px;
+    list-style-type: none;
+    
+}
+
+.list {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 25%;
+}
+
+.listEle {
+    text-decoration: none;
+
+}
+
+.listLink {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.listLink:hover {
+    color: #bbb;
+}
+
